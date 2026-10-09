@@ -1,0 +1,25 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Dataset files (avoid committing large MNIST downloads)
+dataset/
+data/
+
+# Model checkpoints (save storage and keep repo light)
+*.pt
+*.pth
+checkpoints/
+
+# System and IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
